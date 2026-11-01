@@ -114,3 +114,22 @@ To further refine your project using **only HTML and CSS**, consider the followi
 
 By applying these **HTML and CSS–focused** enhancements, you’ll maintain a streamlined workflow, keep dependencies low, and deliver a highly maintainable and future-proof codebase.
 
+---
+ 
+## 4. Registro Personal del Taller (Parcial - 2do Corte)
+**Estudiante:** Yosman Farid Murillo Arboleda  Y El compañero que no tenia interne. no me cuerdo el nombre.
+
+### Aprendizajes y Logros
+* **Uso avanzado de Flexbox:** Entendí cómo acomodar elementos en filas y columnas sin enredarme, alineando las tarjetas de productos, los pósters y la barra de navegación de forma limpia.
+* **Control de imágenes con `object-fit`:** Aprendí por qué las imágenes a veces se estiran o se deforman, y cómo usar `cover` y `contain` para que mantengan su proporción exacta en cualquier pantalla.
+* **Estructura semántica:** Ya me quedó claro cuándo usar etiquetas como `<header>`, `<section>`, `<article>` y `<footer>` en lugar de puros `<div>`.
+
+### Inconvenientes y Dificultades Encontradas
+* **Las imágenes no cargaban:** Al principio configuré las rutas en el HTML pero la página se quedaba en blanco o se rompían los recuadros. Me di cuenta de que era porque los nombres de los archivos en mi carpeta de VS Code no coincidían exactamente con los del código. Lo solucioné revisando el explorador de archivos y adaptando las rutas exactas.
+* **El banner de la Visa:** La sección final de la tarjeta de crédito me dio guerra porque la imagen se salía del contenedor o quedaba demasiado grande. Tuve que ajustar los porcentajes de `flex` y los anchos máximos (`max-width`) hasta que cogió la medida justa de la maqueta.
+
+### Interacción y Apoyo con la Inteligencia Artificial
+Para sacar adelante este proyecto me apoyé haciendo consultas puntuales a la inteligencia artificial como herramienta de guía:
+1. **Validación de estructura HTML:** Consulté para verificar si las secciones principales de la landing page estaban bien divididas de forma lógica y semántica.
+2. **Depuración de CSS:** Pedí ayuda para corregir desalineaciones puntuales en la sección de las tarjetas de los parques y para centrar los elementos del banner inferior usando Flexbox.
+3. **Revisión de rutas:** Consulté por qué el navegador no renderizaba ciertos archivos y me ayudó a confirmar cómo estructurar las referencias dentro de la carpeta `images/`.
